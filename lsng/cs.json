@@ -1,0 +1,46 @@
+{
+    "three-actor-portrait": {
+        "settings":{
+            "authKey": {
+                "name": "Autentizační klíč HeroForge",
+                "hint": "Zde zadej svůj autentizační klíč. Najdeš jej v nastavení účtu HeroForge (Účet -> Osobní údaje -> Přístupový klíč). Pokud si v HeroForge změníš heslo, budeš muset autentizační klíč aktualizovat."
+            },
+            "disablePortrait": {
+                "name": "Zakázat 3D portréty?",
+                "hint": "Zaškrtnutí zakáže 3D portréty u všech aktérů. Doporučeno pro slabší zařízení a pomalé připojení k síti."
+            },
+            "playerCanEditPortrait": {
+                "name": "Smí hráči upravovat kamery?",
+                "hint": "Zaškrtnutí umožní hráčům upravovat umístění kamery u 3D portrétů."
+            },
+            "autoRotate": {
+                "name": "Automaticky rotovat?",
+                "hint": "Po zaškrtnutí se bude kamera u 3D portrétů automaticky otáčet."
+            },
+            "rotationSpeed": {
+                "name": "Rychlost rotace",
+                "hint": "Rychlost, jakou se kamera u 3D portrétů otáčí."
+            },
+            "license-agreement": {
+                "name": "Přijmout podmínky služby?",
+                "hint": "Zapnutím tohoto nastavení přijímáš Podmínky služby modulu 3D Portraits. Tento modul využívá API HeroForge; jakýkoli pokus o reverzní inženýrství, extrakci či použití API bez svolení Sky Castle Studio je v rozporu s podmínkami služby. Pokud chceš využít API HeroForge ve svém projektu, kontaktuj Sky Castle Studio na support@heroforge.com."
+            },
+            "maxContexts": {
+                "name": "Maximum portrétů?",
+                "hint": "Maximální počet portrétů, které mohou být současně zobrazeny. Další moduly či jiné karty prohlížeče mohou využívat canvas kontexty; pokud dochází k pádům WebGL, zkus tuto hodnotu snížit. WebGL má maximální limit 16 kontextů."
+            }
+        },
+        "portrait-preview":{
+            "save-pose": "Uložit pózu",
+            "download": "Stáhnout",
+            "toggle-rotate": "Přepnout automatickou rotaci",
+            "camera-position-saved": "Pozice kamery uložena",
+            "topdown": "Pohled shora",
+            "outline": "Přepnout obrys"
+        },
+        "notifications": {
+            "maxContextExceeded": "Bylo dosaženo maximálního počtu současně zobrazených 3D portrétů, nejstarší byl uzavřen. Tuto hranici můžeš v nastavení modulu změnit."
+        }
+    }
+    
+}
